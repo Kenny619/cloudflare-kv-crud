@@ -12,8 +12,8 @@ export const Card = ({
 	footer: string;
 	children: React.ReactNode | Promise<HtmlEscapedString>;
 }) => (
-	<div className="card bg-neutral w-full w-min-[50vw] w-max-[90vw] p-10 shadow-lg rounded-sm">
-		<div className="mb-10">
+	<div className="card bg-neutral w-fit w-min-[50vw] w-max-[95vw] p-10 shadow-lg rounded-sm">
+		<div className="mb-5">
 			<h2 className="card-title text-primary">{title}</h2>
 			<div className="divider" />
 			<p className="text-sm">{description}</p>
